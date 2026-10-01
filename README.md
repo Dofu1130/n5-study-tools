@@ -2,7 +2,7 @@
 
 自學日文 N5 檢定用的練習小工具，純靜態網頁，不需要安裝任何東西，不需要後端。
 
-線上版：https://dofu1130.github.io/n5-study-tools-/
+線上版：https://dofu1130.github.io/n5-study-tools/
 
 ## 工具
 
