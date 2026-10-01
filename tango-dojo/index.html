@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>単語道場</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -174,10 +179,15 @@
 
   .view{animation:fade 220ms ease;}
   @keyframes fade{from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:translateY(0);}}
+  .home-link{display:inline-block; font-size:0.8rem; color:var(--ink-muted); text-decoration:none; margin-bottom:14px;}
+  .home-link:hover{color:var(--accent);}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header>
+    <a class="home-link" href="../">← 所有工具</a>
     <div class="eyebrow">N5 單字練習</div>
     <h1>単語道場</h1>
     <p class="sub">連續單字流・先看日文・自己回想再對答案</p>
@@ -628,3 +638,5 @@
   render();
 })();
 </script>
+</body>
+</html>

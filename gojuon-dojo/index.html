@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>五十音道場</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -315,10 +320,15 @@
   @keyframes fade{from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:translateY(0);}}
 
   .visually-hidden{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);}
+  .home-link{display:inline-block; font-size:0.8rem; color:var(--ink-muted); text-decoration:none; margin-bottom:14px;}
+  .home-link:hover{color:var(--accent);}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header>
+    <a class="home-link" href="../">← 所有工具</a>
     <div class="eyebrow">N5 平假名練習</div>
     <h1>五十音道場</h1>
     <p class="sub">隨機測驗・紀錄反應時間・揪出你的弱點假名</p>
@@ -682,3 +692,5 @@
   render();
 })();
 </script>
+</body>
+</html>
